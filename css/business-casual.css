@@ -101,6 +101,10 @@ hr {
     margin: 0 auto 0;
 }
 
+.info-list {
+    font-size: 1.25em;
+}
+
 footer {
     background: #fff;
     background: rgba(255,255,255,0.9);
