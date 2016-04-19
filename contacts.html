@@ -83,35 +83,32 @@
     </nav>
 
     <div class="container">
+
         <div class="row">
             <div class="box">
-                <div class="galery">
-                    <a href="img/imgs/x_2060165c.jpg" target="blank"><img src="img/imgs/x_2060165c.jpg" /></a>
-                    <a href="img/imgs/x_23129ea3.jpg" target="blank"><img src="img/imgs/x_23129ea3.jpg" /></a>
-                    <a href="img/imgs/x_2ac233ff.jpg" target="blank"><img src="img/imgs/x_2ac233ff.jpg" /></a>
-                    <a href="img/imgs/x_389fb29f.jpg" target="blank"><img src="img/imgs/x_389fb29f.jpg" /></a>
-                    <a href="img/imgs/x_3c9039c2.jpg" target="blank"><img src="img/imgs/x_3c9039c2.jpg" /></a>
-                    <a href="img/imgs/x_3fceef89.jpg" target="blank"><img src="img/imgs/x_3fceef89.jpg" /></a>
-                    <a href="img/imgs/x_44b76e68.jpg" target="blank"><img src="img/imgs/x_44b76e68.jpg" /></a>
-                    <a href="img/imgs/x_451766d5.jpg" target="blank"><img src="img/imgs/x_451766d5.jpg" /></a>
-                    <a href="img/imgs/x_5234c7d1.jpg" target="blank"><img src="img/imgs/x_5234c7d1.jpg" /></a>
-                    <a href="img/imgs/x_5aab56cf.jpg" target="blank"><img src="img/imgs/x_5aab56cf.jpg" /></a>
-                    <a href="img/imgs/x_6dd83f40.jpg" target="blank"><img src="img/imgs/x_6dd83f40.jpg" /></a>
-                    <a href="img/imgs/x_786284ce.jpg" target="blank"><img src="img/imgs/x_786284ce.jpg" /></a>
-                    <a href="img/imgs/x_7fe4a24e.jpg" target="blank"><img src="img/imgs/x_7fe4a24e.jpg" /></a>
-                    <a href="img/imgs/x_8244de6f.jpg" target="blank"><img src="img/imgs/x_8244de6f.jpg" /></a>
-                    <a href="img/imgs/x_890c8aa1.jpg" target="blank"><img src="img/imgs/x_890c8aa1.jpg" /></a>
-                    <a href="img/imgs/x_8c0a384c.jpg" target="blank"><img src="img/imgs/x_8c0a384c.jpg" /></a>
-                    <a href="img/imgs/x_996b6552.jpg" target="blank"><img src="img/imgs/x_996b6552.jpg" /></a>
-                    <a href="img/imgs/x_b68e3d70.jpg" target="blank"><img src="img/imgs/x_b68e3d70.jpg" /></a>
-                    <a href="img/imgs/x_d35a851e.jpg" target="blank"><img src="img/imgs/x_d35a851e.jpg" /></a>
-                    <a href="img/imgs/x_fe4a2703.jpg" target="blank"><img src="img/imgs/x_fe4a2703.jpg" /></a>
+                <div class="col-lg-12 text-center">
+                    <h1 class="brand-name">Контакты</h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <p>Филипп: +7(926)916-95-65</p>
+                    <p>Мария: +7(915)471-06-02</p>
+                    <hr/>
+                    <p> Лагерь будет находиться в живописном месте Кольского полуострова, между горами Хибины и Умбозером, вблизи посёлка Ревда.</p>
+                    <p>Координаты GPS: 67.735991, 34.248336</p>
+                    <hr/>
+                    <a href="https://vk.com/alatyrcamp" target="blank" style="background: transparent url(//vk.com/images/faviconnew.ico) no-repeat 16px 50%">ВКонтакте</a>
                 </div>
             </div>
         </div>
 
     </div>
     <!-- /.container -->
+
     <footer>
         <div class="container">
             <div class="row">
@@ -122,23 +119,17 @@
         </div>
     </footer>
 
-    <div id="myModal" class="modal">
-        <div class="myModal__content"></div>
-    </div>
-
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+
     <!-- Script to Activate the Carousel -->
     <script>
-        //$('#myModal').modal();
-        $('.galery a').click(function () {
-            $('.myModal__content').html($(this).html());
-            $('#myModal').modal('show');
-            return false;
-        });
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
     </script>
 
 </body>
