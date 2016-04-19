@@ -222,7 +222,7 @@ footer p {
     display: inline-block;
 }
 
-.vk-link:before {
-    content: "";
+.vk-button {
     background: transparent url(//vk.com/images/faviconnew.ico) no-repeat 16px 50%;
+    display: inline-block;
 }
