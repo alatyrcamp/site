@@ -6,7 +6,7 @@
 
 body {
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-    background: url('../img/bg.jpg') no-repeat center center fixed;
+    background: url('../img/imgs/x_3fceef89.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -106,6 +106,10 @@ hr {
     line-height: 1.6em;
 }
 
+.site-header {
+    text-align: center;
+}
+
 footer {
     background: #fff;
     background: rgba(255,255,255,0.9);
@@ -193,4 +197,27 @@ footer p {
         display: table;
         clear: both;
     }
+}
+
+.galery {
+    text-align: justify;
+}
+
+.galery a {
+    display: inline-block;
+    width: 100px;
+    margin: 10px;
+}
+
+.galery img {
+    width: 100%;
+}
+
+#myModal {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.myModal__content {
+    display: inline-block;
 }
