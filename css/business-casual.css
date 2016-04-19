@@ -223,6 +223,6 @@ footer p {
 }
 
 .vk-button {
-    background: transparent url(//vk.com/images/faviconnew.ico) no-repeat 16px 50%;
+    background: transparent url() no-repeat 16px 50%;
     display: inline-block;
 }
